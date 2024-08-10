@@ -9,3 +9,7 @@ The source code of paper "Heterogeneous Graph Contrastive Learning with Gradient
 -  networkx 3.1
 -  numpy 1.24.3
 -  scikit-learn 1.3.0
+
+
+## Usage:
+Execute `python train_DDA.py'
