@@ -12,4 +12,4 @@ The source code of paper "Heterogeneous Graph Contrastive Learning with Gradient
 
 
 ## Usage:
-Execute `python train_DDA.py'
+Execute python main.py --dataset = ["B-datset" or "C-dataset" or "F-dataset"]
