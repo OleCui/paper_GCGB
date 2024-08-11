@@ -12,4 +12,6 @@ The source code of paper "Heterogeneous Graph Contrastive Learning with Gradient
 
 
 ## Usage:
+Download the datasets from [google drive]([https://www.runoob.com](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv))
+Move the downloaded folder here
 Execute python main.py --dataset = ["B-datset" or "C-dataset" or "F-dataset"]
