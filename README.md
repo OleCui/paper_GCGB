@@ -36,7 +36,7 @@ These datasets can be downloaded from [google drive](https://drive.google.com/dr
 - <i> DiseaseFeature.csv </i>: The 64-dimensional MeSH embeddings of diseases, obtained from paper [MeSHHeading2vec: a new method for representing MeSH headings as vectors based on graph embedding algorithm. Briefings in bioinformatics, 2021, 22(2): 2085-2095](https://academic.oup.com/bib/article/22/2/2085/5813844).
 - <i> Protein_ESM.csv </i>: The 320-dimensional ESM-2 embeddings of proteins, obtained from paper [Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 2023, 379(6637): 1123-1130](https://www.science.org/doi/abs/10.1126/science.ade2574).
 
-These datasets utilized in this paper are consistent with the previous work [AMDGT: Attention aware multi-modal fusion using a dual graph transformer for drug–disease associations prediction. Knowledge-Based Systems, 2024, 284: 111329](https://github.com/JK-Liu7/AMDGT).
+Above datasets utilized in this paper are consistent with the previous work [AMDGT: Attention aware multi-modal fusion using a dual graph transformer for drug–disease associations prediction. Knowledge-Based Systems, 2024, 284: 111329](https://github.com/JK-Liu7/AMDGT).
 
 ## Code Files:
 The introduction of each <code> py </code> file is as follows:
