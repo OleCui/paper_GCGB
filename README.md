@@ -24,7 +24,17 @@ We verify the effectiveness of our proposed method on three commonly-used benchm
 |C-dataset   | $663$ | $409$| $993$ | $2532$ | $3672$ | $10691$ | $0.93\%$|
 |F-dataset   | $592$ | $313$| $2741$ | $1933$ | $3152$ | $47470$ | $1.04\%$|
 
-These datasets can be downloaded from [google drive](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv).
+These datasets can be downloaded from [google drive](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv). Herein, we elaborate on the corresponding data files.
+- <i>DrugFingerprint.csv</i>: The drug fingerprint similarity between each drug pairs.
+- <i>DrugGIP.csv</i>: The drug Gaussian interaction profile (GIP) kernel similarity between each drug pairs.
+- <i>DiseasePS.csv</i>: The disease phenotype similarity between each disease pairs.
+- <i>DiseaseGIP.csv</i>: The disease GIP similarity between each disease pairs.
+- <i> DrugDiseaseAssociationNumber.csv </i>: The known drug disease associations.
+- <i> DrugProteinAssociationNumber.csv </i>: The known drug protein associations.
+- <i> ProteinDiseaseAssociationNumber.csv </i>: The known disease protein associations.
+- <i> Drug_mol2vec.csv </i>: The mol2vec embeddings of drugs.
+- <i> DiseaseFeature.csv </i>: The feature embeddings of diseases.
+- <i> Protein_ESM.csv </i>: The ESM-2 embeddings of proteins.
 
 ## Usage:
 - Download the datasets from 
