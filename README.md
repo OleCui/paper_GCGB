@@ -17,6 +17,9 @@ The codes of GCGB are implemented and tested under the following development env
 -  scikit-learn 1.3.0
 
 ## Datasets
+We verify the effectiveness of our proposed method on three commonly-used benchmarks, i.e., <i>B-dataset, C-dataset, </i>and <i>F-dataset</i>.
+
+
 
 ## Usage:
 - Download the datasets from [google drive](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv)
