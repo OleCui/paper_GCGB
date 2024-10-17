@@ -18,6 +18,9 @@ The codes of GCGB are implemented and tested under the following development env
 
 ## Datasets
 We verify the effectiveness of our proposed method on three commonly-used benchmarks, i.e., <i>B-dataset, C-dataset, </i>and <i>F-dataset</i>.
+| Dataset | \# Drug | \# Disease | \# Protein | \# Drug-Disease | \# Drug-Protein | \# Disease-Protein | Sparsity |
+|:-------:|:--------:|:--------:|:--------:|:-------:| :-------:| :-------:| :-------:|
+|B-dataset   | $269$ | $598$| $1021$ | $18416$ | $3110$ | $5898$ | $11.45%$|
 
 
 
