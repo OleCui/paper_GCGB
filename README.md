@@ -28,7 +28,7 @@ These datasets can be downloaded from [google drive](https://drive.google.com/dr
 - <i>DrugFingerprint.csv</i>: The drug fingerprint similarities between each drug pairs.
 - <i>DrugGIP.csv</i>: The drug Gaussian interaction profile (GIP) kernel similarities between each drug pairs.
 - <i>DiseasePS.csv</i>: The disease phenotype similarities between each disease pairs.
-- <i>DiseaseGIP.csv</i>: The disease GIP similarities between each disease pairs.
+- <i>DiseaseGIP.csv</i>: The disease GIP kernel similarities between each disease pairs.
 - <i> DrugDiseaseAssociationNumber.csv </i>: The known drug-disease associations.
 - <i> DrugProteinAssociationNumber.csv </i>: The known drug-protein associations.
 - <i> ProteinDiseaseAssociationNumber.csv </i>: The known disease-protein associations.
