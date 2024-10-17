@@ -6,7 +6,8 @@ This paper presents a novel heterogeneous Graph Contrastive learning method with
 
 <img src='GCGB_figure.png'>
 
-## Requirements:
+## Environment:
+The codes of GCGB are implemented and tested under the following development environment:
 -  Python 3.8.19
 -  cudatoolkit 11.5
 -  pytorch 1.10.0
@@ -15,6 +16,7 @@ This paper presents a novel heterogeneous Graph Contrastive learning method with
 -  numpy 1.24.3
 -  scikit-learn 1.3.0
 
+## Datasets
 
 ## Usage:
 - Download the datasets from [google drive](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv)
