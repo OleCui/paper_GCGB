@@ -109,12 +109,24 @@ if __name__ == "__main__":
 
     for fold_i in range(args.K_fold):
         print("fold: ", fold_i)
-        X_train = torch.LongTensor(d_data['X_train'][fold_i]).to(device)
-        Y_train = torch.LongTensor(d_data['Y_train'][fold_i]).to(device)
+        positive_num = int(np.sum(d_data['Y_train'][fold_i] == 1))
+        negative_num = d_data['Y_train'][fold_i].shape[0] - positive_num
+    
+        np_X_train_fold_i_positive = d_data['X_train'][fold_i][:int(args.dataset_percent * positive_num)]
+        np_X_train_fold_i_negative = d_data['X_train'][fold_i][positive_num: positive_num + int(args.dataset_percent * negative_num)]
+        np_X_train_fold_i = np.concatenate((np_X_train_fold_i_positive, np_X_train_fold_i_negative), axis=0)
+    
+        np_Y_train_fold_i_positive = d_data['Y_train'][fold_i][:int(args.dataset_percent * positive_num)]
+        np_Y_train_fold_i_negative = d_data['Y_train'][fold_i][positive_num: positive_num + int(args.dataset_percent * negative_num)]
+        np_Y_train_fold_i = np.concatenate((np_Y_train_fold_i_positive, np_Y_train_fold_i_negative), axis=0)
+    
+    
+        X_train = torch.LongTensor(np_X_train_fold_i).to(device)
+        Y_train = torch.LongTensor(np_Y_train_fold_i).to(device)
         X_test = torch.LongTensor(d_data['X_test'][fold_i]).to(device)
         Y_test = d_data['Y_test'][fold_i].flatten()
-
-        heterograph = dgl_heterograph(d_data, d_data['X_train'][fold_i])
+    
+        heterograph = dgl_heterograph(d_data, np_X_train_fold_i_positive)
         heterograph = heterograph.to(device)
         meta_g = heterograph.metagraph()
 
