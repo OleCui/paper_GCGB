@@ -36,6 +36,9 @@ These datasets can be downloaded from [google drive](https://drive.google.com/dr
 - <i> DiseaseFeature.csv </i>: The feature embeddings of diseases.
 - <i> Protein_ESM.csv </i>: The ESM-2 embeddings of proteins.
 
+## Codes:
+
+
 ## Usage:
 - Download the datasets from 
 
