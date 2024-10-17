@@ -32,9 +32,9 @@ These datasets can be downloaded from [google drive](https://drive.google.com/dr
 - <i> DrugDiseaseAssociationNumber.csv </i>: The known drug-disease associations.
 - <i> DrugProteinAssociationNumber.csv </i>: The known drug-protein associations.
 - <i> ProteinDiseaseAssociationNumber.csv </i>: The known disease-protein associations.
-- <i> Drug_mol2vec.csv </i>: The mol2vec embeddings of drugs.
-- <i> DiseaseFeature.csv </i>: The feature embeddings of diseases.
-- <i> Protein_ESM.csv </i>: The ESM-2 embeddings of proteins.
+- <i> Drug_mol2vec.csv </i>: The 300-dimensional mol2vec embeddings of drugs, obtained from paper [Mol2vec: unsupervised machine learning approach with chemical intuition. Journal of chemical information and modeling, 2018, 58(1): 27-35](https://pubmed.ncbi.nlm.nih.gov/29268609/).
+- <i> DiseaseFeature.csv </i>: The 64-dimensional MeSH embeddings of diseases, obtained from paper [MeSHHeading2vec: a new method for representing MeSH headings as vectors based on graph embedding algorithm. Briefings in bioinformatics, 2021, 22(2): 2085-2095](https://academic.oup.com/bib/article/22/2/2085/5813844).
+- <i> Protein_ESM.csv </i>: The 320-dimensional ESM-2 embeddings of proteins, obtained from paper [Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 2023, 379(6637): 1123-1130](https://www.science.org/doi/abs/10.1126/science.ade2574).
 
 ## Code Files:
 The introduction of each <code> py </code> file is as follows:
