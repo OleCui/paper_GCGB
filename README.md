@@ -49,7 +49,7 @@ The introduction of each <code> py </code> file is as follows:
 - <i>parse_args.py</i>: The parameter settings.
 
 ## How to Run the Code:
-- Download the datasets from 
+- Please firstly download the datasets and unzip the downloaded files. Next, create the <code>Datasets/</code>
 
 - Move the downloaded datasets to this folder
 
