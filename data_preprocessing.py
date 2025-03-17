@@ -122,7 +122,7 @@ def K_fold(d_data, args, output_data_path):
 
 def KNN_matrix(matrix, k, isBool = True):
     num = matrix.shape[0]
-    knn_graph = np.zeros(matrix.shape, dtype=int)
+    knn_graph = np.zeros(matrix.shape, dtype=float)
     idx_sort = np.argsort(-(matrix - np.eye(num)), axis=1)
 
     for i in range(num):
